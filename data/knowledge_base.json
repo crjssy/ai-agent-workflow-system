@@ -1,0 +1,23 @@
+[
+  {
+    "id": "agent-overview",
+    "title": "Agent Workflow Pattern",
+    "content": "A practical Agent workflow usually contains planning, context retrieval, generation, evaluation, and revision. Keeping these steps separate makes the system easier to test and improve."
+  },
+  {
+    "id": "quality-loop",
+    "title": "Quality Evaluation Loop",
+    "content": "A review loop should check whether the result answers the user request, cites available context, includes risks, and defines measurable outcomes. Failed checks should trigger a focused revision."
+  },
+  {
+    "id": "metrics",
+    "title": "Operational Metrics",
+    "content": "Useful automation metrics include task volume, average handling time, manual review reduction, pass rate, retry count, user satisfaction, and cost per completed task."
+  },
+  {
+    "id": "portfolio",
+    "title": "Portfolio Positioning",
+    "content": "A portfolio Agent project should show clear architecture, deterministic tests, realistic tool boundaries, and a concise explanation of business impact."
+  }
+]
+

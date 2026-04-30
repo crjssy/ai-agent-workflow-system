@@ -1,0 +1,6 @@
+{
+  "task": "Create a launch plan for an internal AI Agent that drafts weekly project updates.",
+  "audience": "engineering managers",
+  "success_metrics": ["reduce drafting time by 60%", "keep human review pass rate above 90%"]
+}
+

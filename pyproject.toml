@@ -1,0 +1,16 @@
+[project]
+name = "ai-agent-workflow-system"
+version = "0.1.0"
+description = "A pluggable AI Agent workflow for planning, tool use, generation, evaluation, and revision."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Your Name" }]
+license = { text = "MIT" }
+keywords = ["ai-agent", "workflow", "llm", "automation", "rag"]
+
+[project.scripts]
+agent-workflow = "ai_agent_system.cli:main"
+
+[tool.setuptools]
+packages = ["ai_agent_system", "ai_agent_system.agents", "ai_agent_system.tools"]
+
